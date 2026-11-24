@@ -1,0 +1,25 @@
+ADAM — VERSÃO COM IDENTIDADE VISUAL ATUALIZADA
+
+O que foi atualizado:
+- Terrenos chao1/chao2/chao3 com texturas pixel art em tons militares.
+- Obstáculo de cenário (bloco) redesenhado.
+- Adam: sprites direcionais derivados dos sprites originais armados, mantendo cabelo, armadura escura e luzes ciano.
+- Robôs: sprites originais detalhados recuperados do pacote antigo; variantes menores para tenentes e capitães comuns.
+- Itens, projéteis, barras de vida/XP e marcador da filha redesenhados.
+- Novo fundo de menu e painéis do HUD.
+- A lógica de colisão de Adam foi mantida pequena (12 px), apesar do sprite visual maior.
+
+Como executar:
+1. Extraia a pasta.
+2. Abra um terminal dentro desta pasta.
+3. Execute: python main.py
+
+Dependência:
+- O projeto usa PPlay incluído na pasta PPlay.
+- PPlay depende de pygame no ambiente Python. Se necessário: pip install pygame
+
+Observações importantes:
+- A arte usa tiles gerados por IA e sprites de Adam/robôs recuperados do pacote de assets original enviado pela equipe.
+- Os sprites direcionais atuais de Adam usam um quadro de cada direção. As spritesheets originais completas foram preservadas em assets/original_adam para futura animação quadro a quadro.
+- Não foi possível executar o jogo neste ambiente de edição porque pygame não está instalado aqui. Todos os arquivos Python foram compilados para verificação de sintaxe e todos os nomes de imagens exigidos pelo config.py foram verificados.
+- A pasta audio continua sem trilhas/efeitos prontos; esta entrega trata da arte visual.

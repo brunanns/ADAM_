@@ -1,0 +1,29 @@
+ADAM v0.9 - MENU CINEMATOGRAFICO COM SPRITE ANIMADO
+
+Principais mudancas:
+- Novo fundo de cidade em ruinas, sem personagem ou texto incorporado.
+- Adam aparece como sprite independente, usando a spritesheet original de costas (4 quadros).
+- A animacao de Adam no menu e controlada pela classe Animation do PPlay.
+- Botoes do menu sao imagens PNG independentes, com estados normal e selecionado.
+- Menu aceita mouse, setas/W-S e Enter.
+- Mantidos os fluxos existentes de iniciar jogo, instrucoes e sair.
+- Tela de instrucoes reutiliza o cenario e o sprite animado de Adam.
+
+Arquivos principais:
+- assets/menu_bg_v09.png
+- assets/adam_menu_idle.png
+- assets/menu/button_normal.png
+- assets/menu/button_selected.png
+- menu.py
+- main.py
+
+Controles do menu:
+- Mouse: selecionar e clicar
+- W/S ou setas: navegar
+- Enter: confirmar
+- I: instrucoes
+- Esc: sair
+
+Observacao de teste:
+A sintaxe dos modulos alterados foi validada com py_compile e os assets foram verificados.
+A execucao grafica nao foi realizada neste ambiente porque pygame nao esta instalado aqui.

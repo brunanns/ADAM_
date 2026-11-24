@@ -1,0 +1,1 @@
+Coloque aqui os arquivos de som (nomes em config.py: MUSICAS e EFEITOS).

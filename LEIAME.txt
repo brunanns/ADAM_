@@ -1,0 +1,14 @@
+ADAM - onde mexer
+
+ARTE (pasta assets/): troque os PNGs mantendo o MESMO NOME. Tamanhos usados hoje:
+  adam.png 24x24 (e adam_0..adam_7: o jogo gira o adam.png pelo gerar_assets.py)
+  soldado 22 | sargento 26 | tenente_pq 32 | capitao_pq 38 | tenente 44 | capitao 52 | comandante 60
+  filha 22 | tiro 8 | tiro_in 10 | cura 14 | melhoria 16 | bloco 40x40 | chao1..3 80x80
+  Se mudar o tamanho de uma imagem, o hitbox muda junto (usa a largura da imagem).
+
+MUSICA E EFEITOS (pasta audio/): os nomes estao em config.py (MUSICAS e EFEITOS).
+  Sem arquivo = sem som, sem erro. Musicas em .ogg e efeitos em .wav.
+
+CENAS NARRATIVAS: texto em config.py (CUTSCENES). Objetivos de cada fase: PHASES -> "objetivo".
+
+BALANCEAMENTO: config.py (ENEMY_TYPES, PHASES "metas", ITENS_POR_FASE).
