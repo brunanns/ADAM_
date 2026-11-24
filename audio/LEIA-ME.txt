@@ -1,3 +1,0 @@
-Sons do jogo (nomes em config.py: MUSICAS e EFEITOS).
-Os arquivos atuais são PLACEHOLDERS sintetizados por código (veja gerar_audio.py na pasta do jogo).
-Para usar sons de verdade, substitua os arquivos mantendo o mesmo nome: .ogg para músicas, .wav para efeitos.
